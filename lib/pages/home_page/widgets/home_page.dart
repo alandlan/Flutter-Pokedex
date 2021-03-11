@@ -31,7 +31,38 @@ class HomePage extends StatelessWidget {
                 Container(
                   height: statuswidth,
                 ),
-                AppBarHome()
+                AppBarHome(),
+                Expanded(
+                  child: Container(
+                    child: ListView(
+                      children: [
+                        ListTile(
+                          title: Text('Pokemon'),
+                        ),ListTile(
+                          title: Text('Pokemon'),
+                        ),ListTile(
+                          title: Text('Pokemon'),
+                        ),ListTile(
+                          title: Text('Pokemon'),
+                        ),ListTile(
+                          title: Text('Pokemon'),
+                        ),ListTile(
+                          title: Text('Pokemon'),
+                        ),ListTile(
+                          title: Text('Pokemon'),
+                        ),ListTile(
+                          title: Text('Pokemon'),
+                        ),ListTile(
+                          title: Text('Pokemon'),
+                        ),ListTile(
+                          title: Text('Pokemon'),
+                        ),ListTile(
+                          title: Text('Pokemon'),
+                        ),
+                      ],
+                    ),
+                  ),
+                )
               ],
             ),
           )
