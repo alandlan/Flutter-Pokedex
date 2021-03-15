@@ -37,6 +37,8 @@ abstract class _PokeApiStoreBase with Store {
     );
   }
 
+
+
   @action
   getPokemon({int index}) {
     return _pokeAPI.pokemon[index];

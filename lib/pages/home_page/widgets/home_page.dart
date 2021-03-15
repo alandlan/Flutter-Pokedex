@@ -79,9 +79,10 @@ class _HomePageState extends State<HomePage> {
                                         //child: Container(color: Colors.red),
                                         child: PokeItem(
                                           index: index,
+                                          types: pokemon.type,
                                           name: pokemon.name,
-                                          image: pokeApiStore.getImage(
-                                              numero: pokemon.num),
+                                          color: Colors.red,
+                                          num: pokemon.num,
                                         ),
                                         onTap: () {
                                           Navigator.push(
